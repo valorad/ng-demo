@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {markdown} from 'markdown'
+// import {markdown} from 'markdown'
 @Component({
   selector: 'app-sass',
   templateUrl: './sass.component.html',
@@ -10,7 +10,7 @@ export class SassComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-   console.log(markdown.toHTML( "Hello *World*!")) 
+  //  console.log(markdown.toHTML( "Hello *World*!"))
   }
 
 }
